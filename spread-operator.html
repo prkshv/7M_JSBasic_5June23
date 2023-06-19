@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>spread operator</title>
+  </head>
+  <body>
+    <script>
+      // it can grab the value from another array
+      // element means index
+      // let arr = [1, 2, 3];
+      // let arr2 = [4, 5];
+      // arr = arr.concat(arr2);
+      // console.log(arr);
+
+      // let arr3 = [1, 2, 3];
+      // let arr4 = [4, 5];
+      // arr5 = [...arr3, ...arr4];
+      // console.log(arr5);
+
+      // let arr6 = ["q", "w", "e", "r"];
+      // let arr7 = arr6;
+      // arr7.push("d");
+      // console.log(arr7);
+      // console.log(arr6);
+
+      // let arr8 = ["a", "b", "c"];
+      // let arr9 = [...arr8];
+      // arr9.push("e");
+      // console.log(arr9);
+      // console.log(arr8);
+      // //did not add new pushed values to parernt array
+
+      // const demo = ["a", "b"];
+      // let demo1 = [demo, "c", "d"];
+      // console.log(demo1);
+      // //creates nested array
+
+      // const demo2 = ["a", "b"];
+      // const demo3 = [...demo2, "c", "d"];
+      // console.log(demo3);
+      //append in the same array
+
+      //spread operator with object
+      const obj = {
+        x: 1,
+        y: 2,
+      };
+      const obj2 = {
+        z: 3,
+      };
+      const obj3 = { ...obj, ...obj2 };
+      console.log(obj3);
+    </script>
+  </body>
+</html>

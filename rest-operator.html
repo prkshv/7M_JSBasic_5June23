@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rest operator</title>
+  </head>
+  <body>
+    <script>
+      //Rest and spread operator
+      //syntax for both is same
+      // rest ... [rest of js in to array]
+
+      //rest operator syntax allows us to present an
+      //indefinite number of arguments as an array
+      //with the help of this rest parameter a function can be called with any
+      //number of arguments, no matter how it was defined.
+      //syntax (... dots)
+      //it will be store the parameter as an array
+
+      //   function fun(a, b) {
+      //     return a + b;
+      //   }
+      //   console.log(fun(1, 2));
+      //   console.log(fun(1, 2, 3, 4, 5, 6, 7, 8, 9)); output will be still the same as only
+      //2 arguments are given to function
+      //rest operator call each and every element of array
+
+      //   function myfun(a, b, ...input) {
+      //     let sum = 0;
+      //     for (let i of input) {
+      //       sum += i;
+      //     }
+      //     return sum;
+      //   }
+      //   console.log(myfun(1, 2, 3));
+      //   console.log(myfun(2, 6, 8));
+      //   console.log(myfun(1, 2, 3, 4, 5, 6, 7, 8, 9));
+    </script>
+  </body>
+</html>
